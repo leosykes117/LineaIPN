@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link href="css/impress-demo.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/linea.css">
+</head>
+<body class="impress-not-supported">
+	<div class="fallback-message">
+    	<p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
+    	<p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
+	</div>
+	<div id="impress">
+
+    	<div id="title" class="step" data-x="0" data-y="0" data-scale="3">
+        	<span class="try">Cronologia del</span>
+        	<h1>I P N</h1>
+        	<span class="footnote"><sup>*</sup> Leonardo Arellano Martinez</span>
+    	</div>
+
+	    <div id="its" class="step" data-x="850" data-y="3000" data-rotate="90" data-scale="5">
+        	<p>Sus fundadores concibieron al Politécnico como un motor de <strong>desarrollo</strong> y espacio para la <strong>igualdad</strong></p>
+	    </div>
+
+	    <div id="ing" class="step" data-x="3500" data-y="2100" data-rotate="180" data-scale="6">
+        	<p>apoyando por una parte, el proceso de <b class="positioning">industrialización</b> del país</p>
+    	</div>
+
+    	<div id="imagination" class="step" data-x="3500" data-y="-850" data-rotate="270" data-scale="6">
+        	<p>y, brindando <b class="imagination">alternativas educativas</b>
+        	<br>a todos los sectores sociales, en ​especial a los menos favorecidos.​</p>
+    	</div>
+
+	    <div id="Incio" class="step" data-x="6700" data-y="-1500" data-scale="2">
+	        <h1><strong>Linea del tiempo</strong></h1>
+	    </div>
+
+	    <div id="IPN1" class="step" data-x="6700" data-y="-900" data-scale="2" >
+		    <div class="timeline">
+		  		<div class="container left">
+			    	<div class="content">
+				      	<h2>1942</h2>
+				      	<p class="txtLinea">Magna manifestación de alumnos del IPN al Zócalo</p>
+			    	</div>
+			  	</div>
+			  	<div class="container right">
+		    		<div class="content">
+			      		<h2>1943</h2>
+			      		<p class="txtLinea">El futbol americano destaca como actividad deportiva en el IPN</p>
+			    	</div>
+			  	</div>
+			</div>
+		</div>
+
+		<div id="IPN2" class="step" data-x="6700" data-y="10" data-scale="2">
+		    <div class="timeline">
+		  		<div class="container left">
+			    	<div class="content">
+				      	<h2>1944</h2>
+				      	<p class="txtLinea">En enero de este año se crea el internado del Instituto Politécnico Nacional con capacidad para 300 plazas.</p>
+			    	</div>
+			  	</div>
+			  	<div class="container right">
+			    	<div class="content">
+				      	<h2>1944</h2>
+				      	<p class="txtLinea">Aparece en el Diario Oficial de la Federación (DOF) el primer Reglamento Provisional del IPN.</p>
+			    	</div>
+			  	</div>
+			</div>
+		</div>
+
+		<div id="IPN3" class="step" data-x="6700" data-y="1000" data-scale="2">
+		    <div class="timeline">
+		  		<div class="container left">
+			    	<div class="content">
+				      	<h2>1948</h2>
+				      	<p class="txtLinea">Se funda la Escuela Superior de Ingeniería Química e Industrias Extractivas (ESIQIE).</p>
+			    	</div>
+			  	</div>
+			  	<div class="container right">
+			    	<div class="content">
+				      	<h2>1949</h2>
+				      	<p class="txtLinea">Se publica la Primera Ley Orgánica del IPN.</p>
+			    	</div>
+			  	</div>
+			</div>
+		</div>
+
+		<div id="overview" class="step" data-x="3000" data-y="1500" data-scale="10">
+    	</div>
+
+<script>
+if ("ontouchstart" in document.documentElement) { 
+    document.querySelector(".hint").innerHTML = "<p>Tap on the left or right to navigate</p>";
+}
+</script>
+
+<!--
+    
+    Last, but not least.
+    
+    To make all described above really work, you need to include impress.js in the page.
+    I strongly encourage to minify it first.
+    
+    In here I just include full source of the script to make it more readable.
+    
+    You also need to call a `impress().init()` function to initialize impress.js presentation.
+    And you should do it in the end of your document. Not only because it's a good practice, but also
+    because it should be done when the whole document is ready.
+    Of course you can wrap it in any kind of "DOM ready" event, but I was too lazy to do so ;)
+    
+-->
+<script src="js/impress.js"></script>
+<script>impress().init();</script>
+</body>
+</html>
